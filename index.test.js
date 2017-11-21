@@ -26,6 +26,8 @@ test('no repeat with 10000 times', t => {
     const nid = Nid.New(12);
     t.true(typeof nid === 'string');
     t.true(nid.length === 12);
+    t.notDeepEqual(nid[0], '0');
+    t.notDeepEqual(nid.toString()[0], '0');
     if (!map[nid]) {
       map[nid] = nid;
     } else {
