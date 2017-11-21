@@ -40,11 +40,6 @@ console.log(nid[7])
 console.log(Nid.New(8));
 ```
 
-### TODO
-
-- [ ] Support browser, pack with Webpack
-- [ ] Support array type
-
 ## Contributing
 
 [Contributing Guid](https://github.com/axetroy/nid.js/blob/master/CONTRIBUTING.md)
