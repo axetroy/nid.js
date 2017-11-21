@@ -1,6 +1,6 @@
 {
   "name": "@axetroy/nid",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Generate random number",
   "main": "index.js",
   "scripts": {
